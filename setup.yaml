@@ -1,0 +1,11 @@
+users:
+  - name: userone
+    password: $MONGO_USER_PASSWORD
+
+databases:
+  - name: sample
+
+acl:
+  - database: sample
+    user: userone
+    access: dbOwner

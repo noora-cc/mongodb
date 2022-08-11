@@ -2,7 +2,7 @@ users:
   - name: userone
     password: $MONGOUSER1_PASSWORD
   - name: usertwo
-    password: $MONGOUSER1_PASSWORD
+    password: $MONGOUSER2_PASSWORD
     
 
 databases:

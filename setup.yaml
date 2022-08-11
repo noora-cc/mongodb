@@ -1,6 +1,9 @@
 users:
   - name: userone
-    password: $MONGO_USER_PASSWORD
+    password: $MONGOUSER1_PASSWORD
+  - name: usertwo
+    password: $MONGOUSER1_PASSWORD
+    
 
 databases:
   - name: sample
@@ -9,3 +12,7 @@ acl:
   - database: sample
     user: userone
     access: dbOwner
+  - database: sample
+    user: usertwo
+    access: dbOwner
+

@@ -1,7 +1,7 @@
 app:
   name: AppzMongoDB
   code: AMDB
-  notify: nshaji@cloudcontrol.com
+  notify: nshaji@ecloudcontrol.com
 
 build:
   version: 4.4
@@ -36,4 +36,4 @@ MONGOUSER2_PASSWORD:
 AUTH_KEY:
   VAULT:AUTH_KEY
 AUTH_ENABLE=1
-  revision : 06
+  revision : 07

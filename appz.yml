@@ -36,4 +36,4 @@ MONGOUSER2_PASSWORD:
 AUTH_KEY:
   VAULT:AUTH_KEY
 AUTH_ENABLE=1
-  revision : 04
+  revision : 05

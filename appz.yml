@@ -16,14 +16,6 @@ deploy:
   replicas: 1
   port:
   - 27017
-
-volumes:
-- claim: mongo-data
-  mount: /appz/data
-  name: mongo-data
-  size: 5Gi
-  mode: ReadWriteOnce
-
   
 properties:
   DB_USER_ADMIN: admin
@@ -33,5 +25,5 @@ properties:
     vault: MONGOUSER1_PASSWORD
   MONGOUSER2_PASSWORD:
     vault: MONGOUSER2_PASSWORD
-  AUTH_ENABLE: 1
+  AUTH_ENABLE: 0
   revision : 13

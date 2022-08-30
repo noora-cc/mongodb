@@ -32,5 +32,5 @@ properties:
     vault: MONGOUSER1_PASSWORD
   MONGOUSER2_PASSWORD:
     vault: MONGOUSER2_PASSWORD
- 
-  revision : 20
+  AUTH_ENABLE : 1
+  revision : 21
